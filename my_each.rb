@@ -7,4 +7,6 @@ def my_each(array)
   end
 end
 
-yielding {|i| puts i}
+my_each do
+  puts i
+end
