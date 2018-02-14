@@ -6,7 +6,3 @@ def my_each(array)
     i = i + 1
   end
 end
-
-my_each do
-  puts i
-end
